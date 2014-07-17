@@ -25,23 +25,21 @@ global $lsx_options;
   <link rel="shortcut icon" href="<?php echo esc_url( $favicon ); ?>"/>
 <?php } ?>
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> <!-- @TODO take this out -->
-<link href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'> <!-- hook this instead -->
 
  <?php wp_head(); ?> 
 <?php lsx_head_bottom(); ?>
     <!-- Customizable CSS -->
-         <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/animate.min.css" rel="stylesheet">
-   
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/animate.min.css" rel="stylesheet">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/green.css" rel="stylesheet" title="Color">
-    
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/owl.carousel.css" rel="stylesheet">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/owl.transitions.css" rel="stylesheet">
     
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>assets/images/favicon.ico"><link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/main.css" rel="stylesheet" data-skrollr-stylesheet>
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>assets/images/favicon.ico">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/assets/css/main.css" rel="stylesheet" data-skrollr-stylesheet>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-     <link href="<?php echo get_stylesheet_directory_uri(); ?>/app.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri(); ?>/app.css" rel="stylesheet"> 
 </head>
 <?php if ( is_single() && get_post_type() == 'project' ) { ?>
   <body data-spy="scroll" data-target="#affix-nav" data-offset="115" <?php body_class(); ?>>
@@ -53,7 +51,6 @@ global $lsx_options;
   // Use Bootstrap's navbar if enabled in config.php
 
 ?>
-test
   <header>
       <div class="navbar">
 <!--         <?php if ( is_user_logged_in() ) { echo 'nav-logged-in';} ?>
@@ -76,7 +73,7 @@ test
             
             <!-- ============================================================= LOGO MOBILE ============================================================= -->
             
-            <a class="navbar-brand" href="index.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>assets/images/logo.svg" class="logo" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.svg" class="logo" alt=""></a>
             
             <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
             

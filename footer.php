@@ -50,7 +50,6 @@
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.isotope.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.easytabs.min.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.slickforms.js"></script>
-		<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/google.maps.api.v3.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/viewport-units-buggyfill.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/scripts.js"></script> 		
 	<?php lsx_footer_after(); ?>
