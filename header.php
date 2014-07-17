@@ -53,7 +53,7 @@ global $lsx_options;
   // Use Bootstrap's navbar if enabled in config.php
 
 ?>
-
+test
   <header>
       <div class="navbar">
 <!--         <?php if ( is_user_logged_in() ) { echo 'nav-logged-in';} ?>
