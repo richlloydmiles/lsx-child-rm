@@ -1,0 +1,8 @@
+composer.phar
+output/
+vendor/
+*.log
+.DS_Store
+node_modules/
+.sass-cache/
+assets/images

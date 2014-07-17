@@ -1,0 +1,27 @@
+// _________________________________________________________
+// ____________  MAIN SCSS FILE ____________________________
+// _________________________________________________________
+// Import parent bootstrap scss files
+@import "../../../lsx-theme/assets/sass/app.scss";
+// Import all files in the ../ folder to current stylesheet
+@import "utilities/old";
+
+ 
+@media (min-width: 768px) {
+.navbar-collapse {
+width: 100%!important;
+}  
+}
+
+  
+// @media (min-width: $screen-sm-min) {
+// #wp-toolbar  {
+// margin-bottom: 30px;
+//  }
+ 
+//  .nav-logged-in {
+//  	margin-top: 30px;
+//  }
+// } 
+
+ 
